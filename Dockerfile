@@ -1,5 +1,5 @@
 FROM centos:7
-LABEL maintainer "Fernando Horas"
+LABEL maintainer "Fernando"
 RUN yum -y install httpd
 RUN yum -y install php
 CMD /usr/sbin/httpd -D FOREGROUND
