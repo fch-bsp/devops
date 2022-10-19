@@ -9,6 +9,3 @@ images:
 - name: app-boas-vindas
   newName: nandocloud/app-boas-vindas
   newTag: 185a316373e95952688ba4b51d84fb33a2f5a485
-- name: app-site
-  newName: nandocloud/app-boas-vindas
-  newTag: 2d39878616899a008e3df53f26827325d8032337
