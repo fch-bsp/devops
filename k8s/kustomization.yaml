@@ -5,6 +5,8 @@ resources:
 - service.yaml
 
 namespace: app-boas-vindas
+
+
 images:
 - name: app-boas-vindas
   newName: nandocloud/app-boas-vindas
