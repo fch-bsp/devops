@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-boas-vindas
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: app-boas-vindas
+  template:
+    metadata:
+      labels:
+        run: app-boas-vindas
+    spec:
+      containers:
+      - name: app-boas-vindas
+        image: nandocloud/app-boas-vindas:latest
+        ports:
+          - containerPort: 80
+        imagePullPolicy: Always
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: 200m
+        securityContext:
+          allowPrivilegeEscalation: false
