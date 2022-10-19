@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app-boas-vindas
 spec:
-  replicas: 1
+  replicas: 10
   selector:
     matchLabels:
       run: app-boas-vindas
