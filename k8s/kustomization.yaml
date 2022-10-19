@@ -4,12 +4,15 @@ resources:
 - deployment.yaml
 - service.yaml
 
-namespace: app-boas-vindas 
+namespace: app-boas-vindas
 
 images:
 - name: app-boas-vindas
   newName: nandocloud/app-boas-vindas
   newTag: 1dbd566075dccc96b3908f5e8c312efd0d0e1cfa
+- name: app-site
+  newName: nandocloud/app-boas-vindas
+  newTag: 8832acd16d7461682938723fd36d6684c7f16ff1
 - name: react-application
   newName: app-boas-vindas
   newTag: latest
