@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app-boas-vindas
-        image: nandocloud/app-boas-vindas:latest
+        image: nandocloud/app-boas-vindas:1.0
         ports:
           - containerPort: 80
         imagePullPolicy: Always

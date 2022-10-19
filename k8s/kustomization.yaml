@@ -4,7 +4,7 @@ resources:
 - deployment.yaml
 - service.yaml
 
-namespace: app-boas-vindas
+namespace: app-boas-vindas 
 
 images:
 - name: app-boas-vindas
