@@ -4,11 +4,9 @@ resources:
 - deployment.yaml
 - service.yaml
 
-namespace: aapp-boas-vindas
+namespace: app-boas-vindas
 images:
-- name: aapp-boas-vindas
+- name: app-boas-vindas
   newName: nandocloud/app-boas-vindas
   newTag: 185a316373e95952688ba4b51d84fb33a2f5a485
-- name: app-site
-  newName: nandocloud/app-boas-vindas
-  newTag: cb9eae44037c5c55fa4f4be633351a953f31c202
+
